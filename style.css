@@ -1,7 +1,7 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  position: fixed;
+  position: static;
   width: 80%;
   justify-content: space-between;
   padding: 10px 20px;
@@ -10,4 +10,42 @@
 
 .trybewarts-login {
   display: flex;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+  color: white;
+}
+
+.classmain {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.nS {
+  display: flex;
+}
+
+.eC {
+  display: flex;
+}
+
+.radio {
+  display: flex;
+  flex-flow: row wrap;
+  width: 88px;
+}
+
+.radio2 {
+  display: flex;
+  flex-flow: row;
 }
