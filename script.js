@@ -11,3 +11,13 @@ function botao(event) {
     alert('Email ou senha inválidos.');
   }
 } button1.addEventListener('click', botao);
+
+const agreementCheck=document.getElementById('agreement');
+
+function enviar(){
+const button2=document.getElementById('submit-btn');
+if(agreementCheck.checked){
+    button2.disabled=false;
+    
+}
+}agreementCheck.addEventListener('click',enviar);
