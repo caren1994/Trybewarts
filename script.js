@@ -12,12 +12,11 @@ function botao(event) {
   }
 } button1.addEventListener('click', botao);
 
-const agreementCheck=document.getElementById('agreement');
+const agreementCheck = document.getElementById('agreement');
 
-function enviar(){
-const button2=document.getElementById('submit-btn');
-if(agreementCheck.checked){
-    button2.disabled=false;
-    
-}
-}agreementCheck.addEventListener('click',enviar);
+function enviar() {
+  const button2 = document.getElementById('submit-btn');
+  if (agreementCheck.checked) {
+    button2.disabled = false;
+  }
+}agreementCheck.addEventListener('click', enviar);
