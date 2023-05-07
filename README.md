@@ -9,7 +9,6 @@ Projeto em Dupla realizado durante módulo de fundamentos do curso de desenvolvi
  <summary>Habilidades</summary>
 
   - Criar formulários em HTML;
-  - Utilizar o Bootstrap;
   - CSS Flexbox;
 
   <summary>Para rodar o projeto</summary>
